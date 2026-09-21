@@ -55,5 +55,9 @@ required-features = ["async", "package-zip"]
 name = "blocking"
 required-features = ["blocking"]
 
+[[test]]
+name = "trace"
+required-features = ["blocking"]
+
 [profile.dev]
 debug = 1
